@@ -8,6 +8,7 @@ source ~/Envs/pythonenv/bin/activate
 
 pip install -r requirements.txt
 
-python plot_wadj.py sample.graph sample.dot
+python plot_wel.py sample.graph sample.dot
 
 dot -Tpng sample.dot -o sample.png
+
